@@ -25,3 +25,22 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.getin{
+  margin-top:
+}
+.blurred-navbar {
+      backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+      background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity as needed */
+    }
+
+.hover-scale:hover {
+    
+      transform: scale(1.1); /* Adjust the scale factor as needed */
+
+    }    
+
+.img-drop{
+
+  filter: drop-shadow(5px 5px 10px #555)
+}
