@@ -23,7 +23,7 @@ const Trunk = () => {
                 <div className=''>
                 <div className='lg:flex my-8'>
             <div className="vid lg:w-1/2">
-                    <video className='rounded-3xl w-full' muted autoPlay={true} loop src="/01.mov"></video>
+                    <video className='rounded-3xl w-full'  autoPlay={true} loop src="/01.mov"></video>
             </div>
             <div className="txt lg:w-1/2 mx-10 mt-4 lg:mt-0 xl:mt-4">
                 <div className="head flex  justify-between">
@@ -61,7 +61,7 @@ and efficiency. <br />
                 <div className='mt-4'>
                 <div className='lg:flex my-8'>
             <div className="vid lg:w-1/2">
-                    <video className='rounded-3xl w-full' muted autoPlay={true} loop src="/02.mov"></video>
+                    <video className='rounded-3xl w-full'  autoPlay={true} loop src="/02.mov"></video>
             </div>
             <div className="txt lg:w-1/2 mx-10 mt-4 lg:mt-0 xl:mt-4">
                 <div className="head flex  justify-between">
