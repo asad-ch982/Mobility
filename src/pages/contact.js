@@ -19,7 +19,7 @@ const Contact = () => {
                         Email :
                      </div>
                      <div className='text-black'>
-                     bachir.hennawi5@gmail.com
+                     info@mobility-comfort.com
                      </div>
                      </div>
 
@@ -32,13 +32,10 @@ const Contact = () => {
                      </div>
                      </div>
 
-                     <div className='flex'>
-                        <div><img className='mr-4' src="/Instagram.svg" alt="" /> </div>
-                        <div className='mt-3'><span className='text-black font-medium text-xl md:font-bold md:text-3xl'>Mobilty Comfort and More</span>.</div>
-                     </div>
+                    
 
                      <div className='flex my-4'>
-                        <div className='flex'><img className='mr-1' src="/Whatsapp.svg" alt="" /><img className='mr-4' src="/Wechat.svg" alt="" /></div>
+                        <div className='flex'><img className='mr-4' src="/Whatsapp.svg" alt="" /></div>
                         <div className='text-black font-medium text-xl md:font-bold md:text-3xl mt-3'>0046 729 123 827</div>
                      </div>
                 </div>

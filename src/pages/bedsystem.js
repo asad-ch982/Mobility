@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Head from 'next/head'
+import Link from 'next/link'
 
 const Bedsystem = () => {
   return (
@@ -11,16 +12,17 @@ const Bedsystem = () => {
       </Head>
     <div className='bg-white '>
         <div className='md:flex xl:mx-32 mx-10 md:absolute top-1/3 '>
-            <div className="vid xl:w-1/3 md:w-1/2">
+            <div className="vid xl:w-1/2 md:w-1/2">
                     <video className='rounded-3xl w-full' muted autoPlay={true} loop src="/in-car-bed.mov"></video>
             </div>
-            <div className="txt xl:w-2/3 md:w-1/2 mx-10 xl:mt-4 my-8 md:my-0">
-                <div className="head flex  justify-between">
-                    <div className='lg:text-3xl text-black font-medium text-xl mt-1 lg:font-extrabold'>
+            <div className="txt xl:w-1/2 md:w-1/2 mx-10 xl:mt-4 my-8 md:my-0">
+                <div className="head xl:flex  justify-between">
+                    <div className='lg:text-3xl text-black mt-1 font-medium text-xl  lg:font-extrabold'>
                         In-Car-bed
                     </div>
                     <div>
-                        <button className='bg-red-600 text-white px-6 py-2 rounded-xl'>View PDF</button>
+                        <button className='bg-red-600 text-white px-6 py-2 rounded-xl mr-4'>View PDF</button>
+                        <Link href='/' className='bg-red-600 text-white px-6 py-2 rounded-xl'>Other Embodiments</Link>
                     </div>
                 </div>
 

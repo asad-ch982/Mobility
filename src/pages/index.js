@@ -34,8 +34,8 @@ export default function Home() {
       </div>
       </div>
       <div>
-      <Link href='trunk'> <div className='text-black xl:font-semibold xl:text-2xl lg:font-medium lg:text-xl px-2 lg:px-4 xl:px-4 py-1 bg-gray-200 rounded-full hover:text-red-500 cursor-pointer transition-all duration-300 hover:shadow-md hover-scale'>Retractable Trunk</div></Link> 
-      <div className='2xl:h-52 h-10 xl:h-48  sm:h-20 lg:h-32 md:h-10 sm:right-20 opacity-45 border-l-2 border-gray-700 w-0 absolute md:right-20  lg:right-36 right-16 rotate-45'>
+      <Link href='trunk'> <div className='text-black mr-10 xl:font-semibold xl:text-2xl lg:font-medium lg:text-xl px-2 lg:px-4 xl:px-4 py-1 bg-gray-200 rounded-full hover:text-red-500 cursor-pointer transition-all duration-300 hover:shadow-md hover-scale'>Retractable Trunk</div></Link> 
+      <div className='2xl:h-52 h-10 xl:h-48 mr-10  sm:h-20 lg:h-32 md:h-10 sm:right-20 opacity-45 border-l-2 border-gray-700 w-0 absolute md:right-20  lg:right-36 right-16 rotate-45'>
 
       </div>
       </div>
