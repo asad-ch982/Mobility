@@ -89,7 +89,7 @@ function NavBar() {
                 </li>
                 <li className="pb-6 font-medium text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-gray-600  border-gray-900  md:hover:text-gray-600 md:hover:bg-transparent">
                   <Link href="/bedsystem" onClick={() => setNavbar(!navbar)}>
-                  In-Car-Bed
+                  In-Car-Bed System
                   </Link>
                  
                 </li>
