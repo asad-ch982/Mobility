@@ -23,7 +23,7 @@ const Trunk = () => {
                 <div className=''>
                 <div className='lg:flex my-8'>
             <div className="vid lg:w-1/2">
-                    <video className='rounded-3xl w-full'  autoPlay={true} loop src="/01.mov"></video>
+                    <video className='rounded-3xl w-full' controls  autoPlay={true} loop src="/01.mov"></video>
             </div>
             <div className="txt lg:w-1/2 mx-10 mt-4 lg:mt-0 xl:mt-4">
                 <div className="head flex  justify-between">
@@ -35,13 +35,16 @@ const Trunk = () => {
 
                 <div className='mt-4 text-gray-700 font-medium lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal'>
                     <div>
-                    This simple-to-implement pending patent replaces the traditional trunk partially or completely or serves as a supplementary storage solution.
+                        <div className='my-2 font-semibold'>Traditional vehicle trunks often go <span className='border-b-2 border-red-500'>underutilized</span> leaving accupants cramped for legroom.</div>
+                    This simple-to-implement pending patent <span className='bg-red-500 text-white  font-bold'> replaces </span> the traditional trunk partially or completely or serves as a supplementary storage solution.
                     <div className='flex mt-2 justify-between font-bold'>
                         <div>
-                         <span className='text-red-500 font-extrabold'> 1.</span>   Increased Legroom <br />
-                         <span className='text-red-500 font-extrabold'> 2.</span>   Reduced production costs <br />
-                          <span className='text-red-500 font-extrabold'> 3.</span>  Possibility to add a third-row seat to mid-size vehicles,  <br />
-                          <span className='text-red-500 font-extrabold'> 4.</span>  The foldable box is made of hard plastic and can be deployed in less then 3 seconds<br />
+                            <div className='my-2'>Replacing the trunk brings forth a host of advantages:</div> 
+                         <span className='text-red-500 font-extrabold'> 1.</span>   Increased Legroom. <br />
+                       <span className='text-red-500 font-extrabold'>2.</span> <span className='text-red-600'> Increased cargo capacity: </span>  A small hatchback, for example holds up to six large suitcases. <br />
+                         <span className='text-red-500 font-extrabold'> 3.</span>   Reduced production costs <br />
+                        <span className='text-red-500 font-extrabold'> 4.</span>    Improved performance
+and efficiency. <br />
 
                         </div>
                      
@@ -54,7 +57,7 @@ const Trunk = () => {
                 <div className='mt-4'>
                 <div className='lg:flex my-8'>
             <div className="vid lg:w-1/2">
-                    <video className='rounded-3xl w-full'  autoPlay={true} loop src="/02.mov"></video>
+                    <video className='rounded-3xl w-full' controls  autoPlay={true} loop src="/02.mov"></video>
             </div>
             <div className="txt lg:w-1/2 mx-10 mt-4 lg:mt-0 xl:mt-4">
                 <div className="head flex  justify-between">
@@ -66,15 +69,14 @@ const Trunk = () => {
 
                 <div className='mt-4 text-gray-700 font-medium lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal'>
                     <div>
-                    This simple-to-implement pending patent replaces the traditional trunk partially or completely or serves as a supplementary storage solution.
+                    <div className='my-2 font-semibold'>Traditional vehicle trunks often go <span className='border-b-2 border-red-500'>underutilized</span> leaving accupants cramped for legroom.</div>
+                    This simple-to-implement pending patent <span className='bg-red-500 text-white  font-bold'> replaces </span> the traditional trunk partially or completely or serves as a supplementary storage solution.
                     <div className='flex mt-2 justify-between font-bold'>
                       
                         <div>
-                       <span className='text-red-500 font-extrabold'>5.</span>  Increased cargo capacity: A small
-Legroom
-hatchback holds up to six large suitcases. <br />
-                        <span className='text-red-500 font-extrabold'> 6.</span>    Improved performance
-and efficiency. <br />
+                        <div className='my-2'>Replacing the trunk brings forth a host of advantages:</div> 
+                          <span className='text-red-500 font-extrabold'> 5.</span>  Possibility to add a third-row seat to mid-size vehicles.  <br />
+                          <span className='text-red-500 font-extrabold'> 6.</span>  The foldable box is made of hard plastic and can be deployed in less then 3 seconds.<br />
                          <span className='text-red-500 font-extrabold'> 7.</span>   The wheeled detachable box enables indoor loading and unloading. <br />
                         </div>
                     </div>

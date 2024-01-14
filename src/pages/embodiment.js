@@ -17,7 +17,7 @@ const Embodiments = () => {
             <div className=''>
             <div className='lg:flex my-8'>
         <div className="vid lg:w-1/2">
-                <video className='rounded-3xl w-full'  autoPlay={true} loop src="/03.mov"></video>
+                <video className='rounded-3xl w-full' controls  autoPlay={true} loop src="/03.mov"></video>
         </div>
         <div className="txt lg:w-1/2 mx-10 mt-4 lg:mt-0 xl:mt-4">
             <div className="head flex  justify-between">
@@ -50,7 +50,7 @@ friendly, cheap to build, and yet offer ample storage and spacious legroom.
             <div className='mt-4'>
             <div className='lg:flex my-8'>
         <div className="vid lg:w-1/2">
-                <video className='rounded-3xl w-full'  autoPlay={true} loop src="/04.mov"></video>
+                <video className='rounded-3xl w-full' controls autoPlay={true} loop src="/04.mov"></video>
         </div>
         <div className="txt lg:w-1/2 mx-10 mt-4 lg:mt-0 xl:mt-4">
             <div className="head flex  justify-between">
@@ -80,7 +80,7 @@ friendly, cheap to build, and yet offer ample storage and spacious legroom.
             <div className='mt-4'>
             <div className='lg:flex my-8'>
         <div className="vid lg:w-1/2">
-                <video className='rounded-3xl w-full'  autoPlay={true} loop src="/05.mov"></video>
+                <video className='rounded-3xl w-full' controls autoPlay={true} loop src="/05.mov"></video>
         </div>
         <div className="txt lg:w-1/2 mx-10 mt-4 lg:mt-0 xl:mt-4">
             <div className="head flex  justify-between">

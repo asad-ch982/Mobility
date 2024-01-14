@@ -13,7 +13,7 @@ const Bedsystem = () => {
     <div className='bg-white '>
         <div className='md:flex xl:mx-10 2xl:mx-32 mx-10 md:absolute top-1/3 '>
             <div className="vid xl:w-1/2 md:w-1/2">
-                    <video className='rounded-3xl w-full'  autoPlay={true} loop src="/in-car-bed.mov"></video>
+                    <video className='rounded-3xl w-full' controls  autoPlay={true} loop src="/in-car-bed.mov"></video>
             </div>
             <div className="txt xl:w-1/2 md:w-1/2 mx-10 xl:mt-4 my-8 md:my-0">
                 <div className="head   justify-between">
