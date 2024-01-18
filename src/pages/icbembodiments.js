@@ -10,7 +10,7 @@ const Icbembodiments = () => {
 <meta property="og:title" content="Vehicle Bed System" key="title" />
 </Head>
 <div className='bg-white md:absolute top-1/4 mt-4'>
-<div className='md:flex xl:mx-32 md:mx-10  '>
+<div className='flex flex-col-reverse md:flex-row  xl:mx-32 md:mx-10  '>
   <div className="vid xl:w-1/2 md:w-1/2 mx-5 md:mx-0">
           <video className='rounded-3xl w-full' controls  autoPlay={true} loop src="/in-car-bed-2.mov"></video>
   </div>

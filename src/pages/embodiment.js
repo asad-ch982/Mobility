@@ -15,11 +15,11 @@ const Embodiments = () => {
 
     <div className="embodimentMain">
             <div className=''>
-            <div className='lg:flex my-8'>
+            <div className='flex flex-col-reverse lg:flex-row my-8'>
         <div className="vid lg:w-1/2">
                 <video className='rounded-3xl w-full' controls  autoPlay={true} loop src="/03.mov"></video>
         </div>
-        <div className="txt lg:w-1/2 mx-10 mt-4 lg:mt-0 xl:mt-4">
+        <div className="txt lg:w-1/2 md:mx-10 mt-4 lg:mt-0 xl:mt-4">
             <div className="head flex  justify-between">
                 <div className='text-3xl text-black font-extrabold '>
                     Embodiment 03
@@ -27,7 +27,7 @@ const Embodiments = () => {
              
             </div>
 
-            <div className='mt-4 text-gray-700 font-medium lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal'>
+            <div className='mt-4 text-gray-700 font-medium lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal  my-2'>
             <div className=' mb-2 font-bold text-xl text-red-500'>Enhancing Comfort and Utility:</div> 
                 <div>
                
@@ -48,11 +48,11 @@ friendly, cheap to build, and yet offer ample storage and spacious legroom.
     </div>
             </div>
             <div className='mt-4'>
-            <div className='lg:flex my-8'>
+            <div className='flex flex-col-reverse lg:flex-row my-8'>
         <div className="vid lg:w-1/2">
                 <video className='rounded-3xl w-full' controls autoPlay={true} loop src="/04.mov"></video>
         </div>
-        <div className="txt lg:w-1/2 mx-10 mt-4 lg:mt-0 xl:mt-4">
+        <div className="txt lg:w-1/2 md:mx-10 mt-4 lg:mt-0 xl:mt-4">
             <div className="head flex  justify-between">
                 <div className='text-3xl text-black font-extrabold'>
                 Embodiment 04
@@ -60,7 +60,7 @@ friendly, cheap to build, and yet offer ample storage and spacious legroom.
              
             </div>
 
-            <div className='mt-4 text-gray-700 font-medium lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal'>
+            <div className='mt-4 text-gray-700 font-medium lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal my-2'>
             <div className=' mb-2 font-bold text-xl text-red-500'>Enhanced Functionality :</div> 
                 <div>
                 The retractable trunk can be optionally equipped with a simple lifting mechanism, allowing the platform to move vertically and making it easier to handle and transport cargo.
@@ -78,11 +78,11 @@ friendly, cheap to build, and yet offer ample storage and spacious legroom.
     </div>
             </div>
             <div className='mt-4'>
-            <div className='lg:flex my-8'>
+            <div className='flex flex-col-reverse lg:flex-row my-8'>
         <div className="vid lg:w-1/2">
                 <video className='rounded-3xl w-full' controls autoPlay={true} loop src="/05.mov"></video>
         </div>
-        <div className="txt lg:w-1/2 mx-10 mt-4 lg:mt-0 xl:mt-4">
+        <div className="txt lg:w-1/2 md:mx-10 mt-4 lg:mt-0 xl:mt-4">
             <div className="head flex  justify-between">
                 <div className='text-3xl text-black font-extrabold'>
                 Embodiment 05
@@ -90,7 +90,7 @@ friendly, cheap to build, and yet offer ample storage and spacious legroom.
              
             </div>
 
-            <div className='mt-4 text-gray-700 font-medium lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal'>
+            <div className='mt-4 text-gray-700 font-medium lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal my-2'>
             <div className=' mb-2 font-bold text-xl text-red-500'>Decreased Production Cost :</div> 
                 <div>
                 Streamlining production by partially or fully substituting the trunk and in certain instances eliminating the trunk lid, manufacturing expenses experience a significant reduction.
