@@ -10,7 +10,7 @@ const Trunk = () => {
         <meta property="og:title" content="Retractable Trunk" key="title" />
       </Head>
     <div className='my-20  mx-10'>
-        <div className="head md:flex justify-between my-8">
+        <div className="head md:flex justify-between my-8 w-4/5  mx-auto">
             <div className='text-black font-semibold text-3xl mb-4 sm:mb-0' >The Retractable Trunk</div>
             <div className='sm:flex-row flex justify-between  flex-col'>
                  <button className='bg-red-600 text-white px-6 py-2 rounded-xl w-fit mx-2'>View PDF</button>
@@ -21,11 +21,11 @@ const Trunk = () => {
 
         <div className="embodimentMain">
                 <div className=''>
-                <div className='flex flex-col-reverse lg:flex-row my-8'>
-            <div className="vid lg:w-1/2">
+                <div className='flex flex-col-reverse  my-8'>
+            <div className="vid w-4/5  mx-auto">
                     <video className='rounded-3xl w-full' controls  autoPlay={true} loop src="/01.mov"></video>
             </div>
-            <div className="txt lg:w-1/2 md:mx-10 mt-4 lg:mt-0 xl:mt-4">
+            <div className="txt w-4/5  mx-auto mt-4 lg:mt-0 xl:mt-4">
                 <div className="head flex  justify-between">
                     <div className='text-3xl text-black font-extrabold '>
                         Embodiment 01
@@ -33,7 +33,7 @@ const Trunk = () => {
                  
                 </div>
 
-                <div className='mt-4 text-gray-700 font-bold lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal my-2'>
+                <div className='mt-4 text-gray-700 font-bold lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal my-6'>
                     <div>
                         <div className='my-2 font-bold'>Traditional vehicle trunks often go <span className=''>underutilized</span> leaving accupants cramped for legroom.</div>
                     This simple-to-implement pending patent <span className=''> replaces </span> the traditional trunk partially or completely or serves as a supplementary storage solution.
@@ -54,11 +54,11 @@ const Trunk = () => {
         </div>
                 </div>
                 <div className='mt-4'>
-                <div className='flex flex-col-reverse lg:flex-row my-8'>
-            <div className="vid lg:w-1/2">
+                <div className='flex flex-col-reverse  my-8'>
+            <div className="vid w-4/5  mx-auto">
                     <video className='rounded-3xl w-full' controls  autoPlay={true} loop src="/02.mov"></video>
             </div>
-            <div className="txt lg:w-1/2 md:mx-10 mt-4 lg:mt-0 xl:mt-4">
+            <div className="txt w-4/5  mx-auto mt-4 lg:mt-0 xl:mt-4">
                 <div className="head flex  justify-between">
                     <div className='text-3xl text-black font-extrabold'>
                     Embodiment 02
@@ -66,7 +66,7 @@ const Trunk = () => {
                  
                 </div>
 
-                <div className='mt-4 text-gray-700 font-bold lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal my-2'>
+                <div className='mt-4 text-gray-700 font-bold lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal my-6'>
                     <div>
                     
                    

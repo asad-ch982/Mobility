@@ -9,12 +9,12 @@ const Icbembodiments = () => {
 <title>Vehicle Bed System</title>
 <meta property="og:title" content="Vehicle Bed System" key="title" />
 </Head>
-<div className='bg-white md:absolute top-1/4 mt-4'>
-<div className='flex flex-col-reverse md:flex-row  xl:mx-32 md:mx-10  '>
-  <div className="vid xl:w-1/2 md:w-1/2 mx-5 md:mx-0">
-          <video className='rounded-3xl w-full' controls  autoPlay={true} loop src="/in-car-bed-2.mov"></video>
+<div className='bg-white  my-10'>
+<div className='flex flex-col-reverse      '>
+  <div className="vid  md:mx-0">
+          <video className='rounded-3xl w-4/5  mx-auto' controls  autoPlay={true} loop src="/in-car-bed-2.mov"></video>
   </div>
-  <div className="txt xl:w-1/2 md:w-1/2 mx-10 xl:mt-4 my-8 md:my-0">
+  <div className="txt w-4/5  mx-auto xl:mt-4 my-8 md:my-0">
       <div className="head xl:flex  justify-between">
           <div className='lg:text-3xl text-black mt-1 font-medium text-xl  lg:font-extrabold'>
               In-Car-bed System
@@ -22,7 +22,7 @@ const Icbembodiments = () => {
          
       </div>
 
-      <div className='2xl:mt-4 xl:mt-1 mt-2 md:leading-none  lg:leading-normal text-gray-700  xl:font-medium'>
+      <div className='2xl:mt-4 xl:mt-1 mt-2 md:leading-none  lg:leading-normal text-gray-700  xl:font-medium my-6'>
           <div>
             <div className='border-l-4 border-red-500 pl-2'>The car bed system solves these issues by allowing the user to transform vehicle seats into a comfortable flat bed.</div>
             <div className='border-l-4 border-red-500 pl-2 mt-2'>The main advantage of the proposed vehicle bed system lies in the fact that the vehicle seats can be reclined all the way backward, and the bed extends considerably from the steering wheel to the end of the trunk. Another notable advantage is its complete flatness, setting it apart from other comparable products. Moreover, this concept is applicable to both compact and large vehicles</div>
