@@ -12,18 +12,19 @@ const Bedsystem = () => {
       </Head>
     <div className='bg-white '>
         <div className=' xl:mx-10 2xl:mx-32  flex flex-col-reverse  my-10  top-1/3 '>
-            <div className="vid  w-4/5  mx-auto">
+            <div className="vid  w-5/6  mx-auto">
                     <video className='rounded-3xl w-full ' controls  autoPlay={true} loop src="/in-car-bed.mov"></video>
-            </div>
-            <div className="txt w-4/5  mx-auto xl:mt-4 my-8 md:my-0">
-                <div className="head   justify-between">
-                    <div className='lg:text-3xl text-black mt-1 font-medium text-xl  lg:font-extrabold'>
-                        In-Car-bed System
-                    </div>
                     <div className='sm:flex-row flex justify-between my-4 flex-col'>
                         <button className='bg-red-600 w-fit text-white px-6 py-2 rounded-xl mr-4 '>View PDF</button>
                         <Link href='/icbembodiments' className='bg-red-600 w-fit text-white px-6 py-2 mt-4 sm:mt-0 rounded-xl'>Other Embodiments</Link>
                     </div>
+            </div>
+            <div className="txt w-5/6  mx-auto xl:mt-4 my-8 md:my-0">
+                <div className="head   justify-between">
+                    <div className='lg:text-3xl text-black mt-1 font-medium text-xl  lg:font-extrabold'>
+                        In-Car-bed System
+                    </div>
+                  
                 </div>
 
                 <div className='2xl:mt-4 xl:mt-1 mt-2 md:leading-none  lg:leading-normal text-gray-700  xl:font-medium my-10'>
