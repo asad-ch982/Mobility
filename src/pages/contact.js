@@ -36,7 +36,7 @@ const Contact = () => {
 
                      <div className='flex my-4'>
                         <div className='flex'><img className='mr-4' src="/Whatsapp.svg" alt="" /></div>
-                        <div className='text-black font-medium text-xl md:font-bold md:text-3xl mt-3'>0046 729 123 827</div>
+                        <div className='text-black font-medium text-xl md:font-bold md:text-3xl mt-3'>0046 729 123 287</div>
                      </div>
                 </div>
 

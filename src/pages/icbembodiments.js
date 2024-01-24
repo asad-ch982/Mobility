@@ -43,7 +43,7 @@ const Icbembodiments = () => {
 
 </div>
  <div className="vid my-10 md:mx-0">
-          <video className='rounded-3xl w-5/6  mx-auto' controls  autoPlay={true} loop src="/in-car-bed-2.mov"></video>
+          <video className='rounded-3xl w-5/6  mx-auto' controls  autoPlay={false} loop src="/in-car-bed-2.mov"></video>
   </div>
 </div>
   )

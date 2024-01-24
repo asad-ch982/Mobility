@@ -58,7 +58,7 @@ const Embodiments = () => {
                     Instant Accessibility:
                   </div>
                   <div>
-                    With a deployment time of fewer than three seconds, the
+                    With a deployment time of less than three seconds, the
                     retractable trunk ensures effortless and rapid access to
                     extra storage space.
                   </div>
@@ -74,12 +74,7 @@ const Embodiments = () => {
                     Decreased Production Cost :
                   </div>
                   <div>
-                    Streamlining production by partially or fully substituting
-                    the trunk and in certain instances eliminating the trunk
-                    lid, manufacturing expenses experience a significant
-                    reduction. This outcome stems from decreased labor costs,
-                    machinery, factory space, and materials required for trunk
-                    fabrication.
+                  Streamlining production through partial or complete trunk substitution and, in some cases, trunk lid elimination.
                   </div>
                   <div className=" mb-2 font-bold mt-2 text-xl text-red-500">
                     Increased Cargo Capacity:
@@ -132,7 +127,7 @@ const Embodiments = () => {
                 <video
                   className="rounded-3xl w-full"
                   controls
-                  autoPlay={true}
+                  autoPlay={false}
                   loop
                   src="/03.mov"
                 ></video>
@@ -144,7 +139,7 @@ const Embodiments = () => {
                 <video
                   className="rounded-3xl w-full"
                   controls
-                  autoPlay={true}
+                  autoPlay={false}
                   loop
                   src="/04.mov"
                 ></video>
@@ -161,7 +156,7 @@ const Embodiments = () => {
                 <video
                   className="rounded-3xl w-full"
                   controls
-                  autoPlay={true}
+                  autoPlay={false}
                   loop
                   src="/05.mov"
                 ></video>

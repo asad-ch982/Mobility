@@ -17,7 +17,11 @@ const Footer = () => {
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
    
       <a className="ml-3 text-gray-500">
+        <div className='flex'>
       <img src="Whatsapp.svg" alt="" />
+      <div className='text-black font-semibold text-center items-center ml-2 text-xl flex'>0046 729 123 287</div>
+      </div>
+      
       </a>
     
     
