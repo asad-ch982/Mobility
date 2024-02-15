@@ -1,11 +1,11 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-const Bedsystem = () => {
+const Bedsystem = ({language,setLanguage}) => {
   return (
     <div>
               <Head>
-        <title>Vehicle Bed System</title>
+        <title> {language?"车内床系统":" In-Car-Bed System"} </title>
         <meta property="og:title" content="Vehicle Bed System" key="title" />
       </Head>
     <div className='bg-white '>
@@ -20,7 +20,7 @@ const Bedsystem = () => {
             <div className="txt w-5/6  mx-auto xl:mt-4 my-8 md:my-0">
                 <div className="head   justify-between">
                     <div className='lg:text-3xl text-black mt-1 font-medium text-xl  lg:font-extrabold'>
-                        In-Car-bed System
+                    {language?"车内床系统":" In-Car-Bed System"} 
                     </div>
                   
                 </div>

@@ -37,7 +37,7 @@ import { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseCircleSharp } from "react-icons/io5";
 
-function NavBar() {
+function NavBar({language,setLanguage}) {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
@@ -89,13 +89,13 @@ function NavBar() {
                 </li>
                 <li className="pb-6 font-medium text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-gray-600  border-gray-900  md:hover:text-gray-600 md:hover:bg-transparent">
                   <Link href="/bedsystem" onClick={() => setNavbar(!navbar)}>
-                  In-Car-Bed System
+                  {language?"车内床系统":" In-Car-Bed System"} 
                   </Link>
                  
                 </li>
                 <li className="pb-6 font-medium text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-gray-600  border-gray-900  md:hover:text-gray-600 md:hover:bg-transparent">
                   <Link href="/trunk" onClick={() => setNavbar(!navbar)}>
-                    Retractable Trunk
+                  {language?"可收缩后备箱":" Retractable Trunk"} 
                   </Link>
                 
                 </li>
@@ -104,6 +104,11 @@ function NavBar() {
                   <Link href="/contact" onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link>
+                </li>
+                <li className="pb-6 font-medium text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-gray-600  border-gray-900  md:hover:text-gray-600 md:hover:bg-transparent">
+                  <div className='cursor-pointer' onClick={() => setLanguage(!language)}>
+                    {language?"Eng":"中文"}
+                  </div>
                 </li>
                
               </ul>
