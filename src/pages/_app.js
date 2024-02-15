@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }) {
       <Navbar language={language} setLanguage={setLanguage}/>
       <Component language={language} setLanguage={setLanguage} {...pageProps} />
       </div>
-      <Footer/>
+      <Footer language={language} setLanguage={setLanguage}/>
     </div>
  
  

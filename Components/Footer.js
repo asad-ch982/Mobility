@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({language,setLanguage}) => {
   return (
     <div className=' '>
         <div className='bg-red-600 z-10 w-fit px-2 py-1 font-bold text-white text-2xl getin absolute -mt-6 ml-36'>
-            Get in Touch
+        {language?"取得联系":"Get in Touch"} 
         </div>
         <div className='bg-gray-400'>
         <footer className="text-gray-600  blurred-navbar body-font ">

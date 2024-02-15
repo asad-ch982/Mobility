@@ -57,7 +57,7 @@ const Contact = () => {
            About
                      </div>
                      <div className='sm:w-2/3  mt-4 text-black text-md'>
-                        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure neque velit cumque assumenda, at reprehenderit sed. Sit corrupti, nisi optio hic recusandae libero accusamus odit tempora consequuntur. Dolorum, voluptate excepturi!</p>
+                        <p className=''>Mobility Comfort & More</p>
                      </div>
                      </div>
                 </div>

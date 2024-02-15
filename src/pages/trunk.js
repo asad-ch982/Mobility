@@ -52,55 +52,50 @@ const Trunk = ({language,setLanguage}) => {
                 <div className="mt-4 text-gray-700  lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal ">
                   <div>
                     <div className="my-2 ">
-                      Traditional vehicle trunks often go{" "}
-                      <span className="">underutilized</span> leaving accupants
-                      cramped for legroom.
+                    {language?"传统车辆后备箱往往被低效利用，使乘员腿部 空间受限。":" Traditional vehicle trunks often go underutilized leaving accupants cramped for legroom."}
+                     
                     </div>
-                    This simple-to-implement pending patent{" "}
-                    <span className=""> replaces </span> the traditional trunk
-                    partially or completely or serves as a supplementary storage
-                    solution.
+                    {language?"这个待实施的专利提案，可以简单地部分或完全替代 传统后备箱，或作为一个辅助存储解决方案。":"This simple-to-implement pending patentreplaces the traditional trunk partially or completely or serves as a supplementary storage solution."}
+                    
                     <div className="flex mt-2 justify-between ">
                       <div>
                         <div className="my-2">
-                          Replacing the trunk brings forth a host of advantages:
+                        {language?"替代后备箱带来了一系列优势:":"Replacing the trunk brings forth a host of advantages:"}
+                          
                         </div>
                         <span className="text-red-500 "> 1.</span>{" "}
-                        Increased Legroom. <br />
+                        {language?"增加腿部空间":"Increased Legroom."}  <br />
                         <span className="text-red-500 ">
                           2.
                         </span>{" "}
-                        <span className=""> Increased cargo capacity: </span> A
-                        small hatchback, for example can, holds up to six large
-                        suitcases. <br />
+                        {language?"增加货物容量:例如，一辆小型掀背车可以容纳多达六个大型行李箱。":"Increased cargo capacity: A small hatchback, for example can, holds up to six large suitcases."}  <br />
                         <span className="text-red-500 ">
                           {" "}
                           3.
                         </span>{" "}
-                        Reduced production costs. <br />
+                        {language?"降低车辆生产成本。":" Reduced production costs."}   <br />
                         <span className="text-red-500 ">
                           {" "}
                           4.
                         </span>{" "}
-                        Improved performance and efficiency. <br />
+                        {language?"提高表现和效率。":"  Improved performance and efficiency."}  <br />
                         <span className="text-red-500 ">
                           {" "}
                           5.
                         </span>{" "}
-                        Possibility to add a third-row seat to mid-size
-                        vehicles. <br />
+                        {language?"可以在中型车辆上增加第三排座椅。":" Possibility to add a third-row seat to mid-size vehicles."}   <br />
                         <span className="text-red-500 ">
                           {" "}
                           6.
                         </span>{" "}
-                        The foldable box is made of hard plastic and can be
-                        deployed in less then 3 seconds.
+                        {language?"带有轮子的可拆卸箱子可在室装货物品或卸货物品。":" The foldable box is made of hard plastic and can be deployed in less then 3 seconds."}  
                         <br />
                         <span className="text-red-500 ">
                           {" "}
                           7.
                         </span>{" "}
-                        The wheeled detachable box enables indoor loading and unloading. Paradoxically, the vehicle can offer full-size interior and ample storage despite being compact in size, making it both fuel-efficient and cost-effective to build. Alternatively, the external trunk can serve as a supplementary storage solution. The retractable trunk isn’t an aftermarket product; rather, it should be seamlessly integrated into the vehicle’s design and built from the ground up. <br />
+                        {language?"可折叠的箱子由坚固耐用的塑料或金属制成，可以在不到三秒的时间内展开。矛盾的是，纵然车辆体积小，却可以提供内部的全尺寸空间和充足的储物空间，使其燃油效率和成本效益上都具备优势。除此之外，它还可以提供补充性的存储解决方案。":" The wheeled detachable box enables indoor loading and unloading. Paradoxically, the vehicle can offer full-size interior and ample storage despite being compact in size, making it both fuel-efficient and cost-effective to build. Alternatively, the external trunk can serve as a supplementary storage solution. The retractable trunk isn’t an aftermarket product; rather, it should be seamlessly integrated into the vehicle’s design and built from the ground up."}
+                         <br />
                       </div>
                     </div>
                   </div>
