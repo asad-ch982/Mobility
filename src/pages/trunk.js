@@ -52,10 +52,10 @@ const Trunk = ({language,setLanguage}) => {
                 <div className="mt-4 text-gray-700  lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal ">
                   <div>
                     <div className="my-2 ">
-                    {language?"传统车辆后备箱往往被低效利用，使乘员腿部 空间受限。":" Traditional vehicle trunks often go underutilized leaving accupants cramped for legroom."}
+                    {language?"传统车辆后备箱往往被低效利用，使乘员腿部 空间受限。":" Traditional vehicle trunks often go underutilized leaving occupants cramped for legroom."}
                      
                     </div>
-                    {language?"这个待实施的专利提案，可以简单地部分或完全替代 传统后备箱，或作为一个辅助存储解决方案。":"This simple-to-implement pending patentreplaces the traditional trunk partially or completely or serves as a supplementary storage solution."}
+                    {language?"这个待实施的专利提案，可以简单地部分或完全替代 传统后备箱，或作为一个辅助存储解决方案。":"This simple-to-implement pending patent replaces the traditional trunk partially or completely or serves as a supplementary storage solution."}
                     
                     <div className="flex mt-2 justify-between ">
                       <div>
@@ -68,12 +68,12 @@ const Trunk = ({language,setLanguage}) => {
                         <span className="text-red-500 ">
                           2.
                         </span>{" "}
-                        {language?"增加货物容量:例如，一辆小型掀背车可以容纳多达六个大型行李箱。":"Increased cargo capacity: A small hatchback, for example can, holds up to six large suitcases."}  <br />
+                        {language?"增加货物容量:例如，一辆小型掀背车可以容纳多达六个大型行李箱。":"Increased cargo capacity: A small hatchback, for example, can holds up to six large suitcases."}  <br />
                         <span className="text-red-500 ">
                           {" "}
                           3.
                         </span>{" "}
-                        {language?"降低车辆生产成本。":" Reduced production costs."}   <br />
+                        {language?"降低车辆生产成本。":" Reduced vehicle’s production costs."}   <br />
                         <span className="text-red-500 ">
                           {" "}
                           4.
@@ -88,7 +88,7 @@ const Trunk = ({language,setLanguage}) => {
                           {" "}
                           6.
                         </span>{" "}
-                        {language?"带有轮子的可拆卸箱子可在室装货物品或卸货物品。":" The foldable box is made of hard plastic and can be deployed in less then 3 seconds."}  
+                        {language?"带有轮子的可拆卸箱子可在室装货物品或卸货物品。":" The foldable box is made of hard plastic and can be deployed in less than 3 seconds."}  
                         <br />
                         <span className="text-red-500 ">
                           {" "}

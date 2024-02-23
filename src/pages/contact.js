@@ -52,14 +52,14 @@ const Contact = () => {
                      </div>
                      </div>
 
-                     <div>
+                     {/* <div>
                      <div className='bg-red-600 w-fit px-2 py-1 font-bold text-white text-2xl'>
            About
                      </div>
-                     <div className='sm:w-2/3  mt-4 text-black text-md'>
+                     {/* <div className='sm:w-2/3  mt-4 text-black text-md'>
                         <p className=''>Mobility Comfort & More</p>
-                     </div>
-                     </div>
+                     </div> */}
+                     {/* </div> */} 
                 </div>
             </div>
 
