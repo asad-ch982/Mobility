@@ -1,18 +1,18 @@
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-
-const Trunk = ({language,setLanguage}) => {
+import { LuListVideo } from "react-icons/lu";
+const Trunk = ({ language, setLanguage }) => {
   return (
     <div>
       <Head>
-        <title> {language?"可收缩后备箱":" Retractable Trunk"} </title>
+        <title> {language ? "可收缩后备箱" : " Retractable Trunk"} </title>
         <meta property="og:title" content="Retractable Trunk" key="title" />
       </Head>
       <div className="my-10  ">
         <div className="head md:flex justify-between  w-5/6  mx-auto">
           <div className="text-black font-semibold text-3xl mb-2 sm:mb-0">
-          {language?"可收缩后备箱":" Retractable Trunk"} 
+            {language ? "可收缩后备箱" : " Retractable Trunk"}
           </div>
         </div>
 
@@ -22,7 +22,7 @@ const Trunk = ({language,setLanguage}) => {
               <div className="vid w-5/6 md:flex gap-2 mx-auto">
                 <div className="md:w-1/2">
                   <div className="text-3xl my-4 text-black  ">
-                  {language?" 型號 1":" Embodiment 01"}  
+                    {language ? " 型號 1" : " Embodiment 01"}
                   </div>
                   <video
                     className="rounded-3xl w-full"
@@ -35,7 +35,7 @@ const Trunk = ({language,setLanguage}) => {
 
                 <div className="vid md:w-1/2  ">
                   <div className="text-3xl my-4 text-black ">
-                  {language?" 型號 2":" Embodiment 02"} 
+                    {language ? " 型號 2" : " Embodiment 02"}
                   </div>
                   <video
                     className="rounded-3xl w-full"
@@ -52,50 +52,72 @@ const Trunk = ({language,setLanguage}) => {
                 <div className="mt-4 text-gray-700  lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal ">
                   <div>
                     <div className="my-2 ">
-                    {language?"传统车辆后备箱往往被低效利用，使乘员腿部 空间受限。":" Traditional vehicle trunks often go underutilized leaving occupants cramped for legroom."}
-                     
+                      {language
+                        ? "传统车辆后备箱往往被低效利用，使乘员腿部 空间受限。"
+                        : " The built-in retractable trunk offers extra storage capacity and versatility and can be deployed in less than three seconds. A small hatchback, for  example, can offer more than 750 liters of extra storage."}
                     </div>
-                    {language?"这个待实施的专利提案，可以简单地部分或完全替代 传统后备箱，或作为一个辅助存储解决方案。":"This simple-to-implement pending patent replaces the traditional trunk partially or completely or serves as a supplementary storage solution."}
-                    
+                    {language
+                      ? "这个待实施的专利提案，可以简单地部分或完全替代 传统后备箱，或作为一个辅助存储解决方案。"
+                      : "Alternatively, this simple-to-implement patent can replace the underutilized trunk either partially or completely."}
+
                     <div className="flex mt-2 justify-between ">
                       <div>
                         <div className="my-2">
-                        {language?"替代后备箱带来了一系列优势:":"Replacing the trunk brings forth a host of advantages:"}
-                          
+                          {language
+                            ? "替代后备箱带来了一系列优势:"
+                            : "The space gained by eliminating the traditional trunk can be utilized to:"}
                         </div>
                         <span className="text-red-500 "> 1.</span>{" "}
-                        {language?"增加腿部空间":"Increased Legroom."}  <br />
-                        <span className="text-red-500 ">
-                          2.
-                        </span>{" "}
-                        {language?"增加货物容量:例如，一辆小型掀背车可以容纳多达六个大型行李箱。":"Increased cargo capacity: A small hatchback, for example, can holds up to six large suitcases."}  <br />
-                        <span className="text-red-500 ">
-                          {" "}
-                          3.
-                        </span>{" "}
-                        {language?"降低车辆生产成本。":" Reduced vehicle’s production costs."}   <br />
-                        <span className="text-red-500 ">
-                          {" "}
-                          4.
-                        </span>{" "}
-                        {language?"提高表现和效率。":"  Improved performance and efficiency."}  <br />
-                        <span className="text-red-500 ">
-                          {" "}
-                          5.
-                        </span>{" "}
-                        {language?"可以在中型车辆上增加第三排座椅。":" Possibility to add a third-row seat to mid-size vehicles."}   <br />
-                        <span className="text-red-500 ">
-                          {" "}
-                          6.
-                        </span>{" "}
-                        {language?"带有轮子的可拆卸箱子可在室装货物品或卸货物品。":" The foldable box is made of hard plastic and can be deployed in less than 3 seconds."}  
+                        {language
+                          ? "增加腿部空间"
+                          : "Increase vehicle legroom."}{" "}
                         <br />
-                        <span className="text-red-500 ">
-                          {" "}
-                          7.
-                        </span>{" "}
-                        {language?"可折叠的箱子由坚固耐用的塑料或金属制成，可以在不到三秒的时间内展开。矛盾的是，纵然车辆体积小，却可以提供内部的全尺寸空间和充足的储物空间，使其燃油效率和成本效益上都具备优势。除此之外，它还可以提供补充性的存储解决方案。":" The wheeled detachable box enables indoor loading and unloading. Paradoxically, the vehicle can offer full-size interior and ample storage despite being compact in size, making it both fuel-efficient and cost-effective to build. Alternatively, the external trunk can serve as a supplementary storage solution. The retractable trunk isn’t an aftermarket product; rather, it should be seamlessly integrated into the vehicle’s design and built from the ground up."}
-                         <br />
+                        <span className="text-red-500 ">2.</span>{" "}
+                        {language
+                          ? "增加货物容量:例如，一辆小型掀背车可以容纳多达六个大型行李箱。"
+                          : "Increase cargo capacity by more than 750 liters."}{" "}
+                        <br />
+                        <span className="text-red-500 "> 3.</span>{" "}
+                        {language
+                          ? "降低车辆生产成本。"
+                          : " Reduce vehicle production costs."}{" "}
+                        <br />
+                        <span className="text-red-500 "> 4.</span>{" "}
+                        {language
+                          ? "提高表现和效率。"
+                          : "  Enhance performance and efficiency thanks to the vehicle's reduced weight."}{" "}
+                        <br />
+                        <span className="text-red-500 "> 5.</span>{" "}
+                        {language
+                          ? "可以在中型车辆上增加第三排座椅。"
+                          : " 	Paradoxically, the vehicle can offer a full-size interior and ample storage despite being compact in size, making it both fuel-efficient and cost-effective to build."}{" "}
+                        <br />
+                        <span className="text-red-500 "> 6.</span>{" "}
+                        {language
+                          ? "带有轮子的可拆卸箱子可在室装货物品或卸货物品。"
+                          : " 	If the trunk is eliminated, cargo can still be stored inside the vehicle by folding the back seats. In this scenario, the retractable trunk can be used when the back seats are occupied by passengers, adding to versatility and space utilization."}
+                        <br />
+                        <div className="text-gray-700 ml-4  p-4">
+                          <p>
+                            The detachable wheeled box enables indoor cargo
+                            loading and unloading, facilitating cargo handling.
+                          </p>
+                          <br />
+                          <p>
+                            The foldable box, made of hard, durable plastic or
+                            metal, occupies minimal space when not in use.
+                          </p>
+                          <br />
+                          <p>
+                            The retractable trunk isn’t an aftermarket product;
+                            rather, it should be seamlessly integrated into the
+                            vehicle’s design and built from the ground up.
+                          </p>
+                        </div>{" "}
+                        {/* {language
+                          ? "可折叠的箱子由坚固耐用的塑料或金属制成，可以在不到三秒的时间内展开。矛盾的是，纵然车辆体积小，却可以提供内部的全尺寸空间和充足的储物空间，使其燃油效率和成本效益上都具备优势。除此之外，它还可以提供补充性的存储解决方案。"
+                          : " The wheeled detachable box enables indoor loading and unloading. Paradoxically, the vehicle can offer full-size interior and ample storage despite being compact in size, making it both fuel-efficient and cost-effective to build. Alternatively, the external trunk can serve as a supplementary storage solution. The retractable trunk isn’t an aftermarket product; rather, it should be seamlessly integrated into the vehicle’s design and built from the ground up."}
+                        <br /> */}
                       </div>
                     </div>
                   </div>
@@ -103,17 +125,23 @@ const Trunk = ({language,setLanguage}) => {
               </div>
             </div>
           </div>
-         
 
           <div className="sm:flex-row flex justify-between w-5/6 mx-auto flex-col mt-6">
-         <a href={language?"/4.pdf":"/3.pdf"} target="_blank" download='Retractable.pdf' >   <button className="bg-red-600 text-white px-6 py-2 rounded-xl w-fit mx-2">
-              View PDF
-            </button></a>
+            <a
+              href={language ? "/4.pdf" : "/3.pdf"}
+              target="_blank"
+              download="Retractable.pdf"
+            >
+              {" "}
+              <button className="bg-red-600 text-white px-6 py-2 rounded-xl w-fit mx-2">
+                View PDF
+              </button>
+            </a>
             <Link
               href="embodiment"
               className="bg-red-600 text-white px-6 py-2 w-fit mt-4 sm:mt-0 rounded-xl"
             >
-             {language?"其他型号":"Other Embodiments"}   
+              {language ? "其他型号" : "Other Embodiments"}
             </Link>
           </div>
         </div>
