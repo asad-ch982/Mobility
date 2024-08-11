@@ -87,31 +87,35 @@ const Trunk = ({ language, setLanguage }) => {
                           ? "提高表现和效率。"
                           : "  Enhance performance and efficiency thanks to the vehicle's reduced weight."}{" "}
                         <br />
-                        <span className="text-red-500 "> 5.</span>{" "}
-                        {language
-                          ? "可以在中型车辆上增加第三排座椅。"
-                          : " 	Paradoxically, the vehicle can offer a full-size interior and ample storage despite being compact in size, making it both fuel-efficient and cost-effective to build."}{" "}
-                        <br />
-                        <span className="text-red-500 "> 6.</span>{" "}
-                        {language
-                          ? "带有轮子的可拆卸箱子可在室装货物品或卸货物品。"
-                          : " 	If the trunk is eliminated, cargo can still be stored inside the vehicle by folding the back seats. In this scenario, the retractable trunk can be used when the back seats are occupied by passengers, adding to versatility and space utilization."}
-                        <br />
+                        <div className="text-gray-700 ml-4  p-4">
+                          {language
+                            ? "即使取消了后备箱，通过折叠后排座椅，货物仍然可以容纳在车辆中。在这种情况下，当后座被占用时，可以使用可伸缩后备箱。矛盾的是，尽管车辆尺寸紧凑，但它仍能提供全尺寸的内部空间和充足的存储空间，使其在建造时既省油又具有成本效益。"
+                            : " 	Paradoxically, the vehicle can offer a full-size interior and ample storage despite being compact in size, making it both fuel-efficient and cost-effective to build."}{" "}
+                          <br />
+                        </div>
+                        <div className="text-gray-700 ml-4  p-4">
+                          {language
+                            ? "轮式可折叠箱子可分离，可在室内装卸，使货物运输更容易。这种可折叠箱子由坚硬耐用的塑料或金属制成，不使用时占用的空间最小。"
+                            : " 	If the trunk is eliminated, cargo can still be stored inside the vehicle by folding the back seats. In this scenario, the retractable trunk can be used when the back seats are occupied by passengers, adding to versatility and space utilization."}
+                          <br />
+                        </div>
                         <div className="text-gray-700 ml-4  p-4">
                           <p>
-                            The detachable wheeled box enables indoor cargo
-                            loading and unloading, facilitating cargo handling.
+                            {language
+                              ? "可伸缩式后备箱不是一款售后产品，相反，它应该从头开始建造，并且必须无缝地集成到车辆的设计中"
+                              : "The detachable wheeled box enables indoor cargo loading and unloading, facilitating cargo handling."}
                           </p>
                           <br />
                           <p>
-                            The foldable box, made of hard, durable plastic or
-                            metal, occupies minimal space when not in use.
+                            {language
+                              ? ""
+                              : "The foldable box, made of hard, durable plastic ormetal, occupies minimal space when not in use."}
                           </p>
                           <br />
                           <p>
-                            The retractable trunk isn’t an aftermarket product;
-                            rather, it should be seamlessly integrated into the
-                            vehicle’s design and built from the ground up.
+                            {language
+                              ? ""
+                              : " The retractable trunk isn’t an aftermarket product;rather, it should be seamlessly integrated into thevehicle’s design and built from the ground up."}
                           </p>
                         </div>{" "}
                         {/* {language

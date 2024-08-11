@@ -1,17 +1,17 @@
 import Head from "next/head";
 import React from "react";
 
-const Embodiments = ({language,setLanguage}) => {
+const Embodiments = ({ language, setLanguage }) => {
   return (
     <div>
       <Head>
-        <title>{language?"可收缩后备箱":"Retractable Trunk"} </title>
+        <title>{language ? "可收缩后备箱" : "Retractable Trunk"} </title>
         <meta property="og:title" content="Other Embodements" key="title" />
       </Head>
       <div className="my-20  w-5/6 mx-auto">
         <div className="head flex justify-between my-2  mx-auto">
           <div className="text-black font-semibold text-3xl">
-          {language?"可收缩后备箱":"The Retractable Trunk"} 
+            {language ? "可收缩后备箱" : "The Retractable Trunk"}
           </div>
         </div>
 
@@ -21,7 +21,7 @@ const Embodiments = ({language,setLanguage}) => {
               <div className="txt  mx-auto mt-4 lg:mt-0 xl:mt-4">
                 <div className="head flex  justify-between"></div>
 
-                <div className="mt-4 text-gray-700 font-medium lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal  my-6">
+                {/* <div className="mt-4 text-gray-700 font-medium lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal  my-6">
                   <div className=" mb-2 font-bold text-xl text-red-500">
                     Enhancing Comfort and Utility:
                   </div>
@@ -114,7 +114,7 @@ const Embodiments = ({language,setLanguage}) => {
                     design process leads to straightforward and cost-effective
                     standardization and implementation.
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ const Embodiments = ({language,setLanguage}) => {
             <div className="md:flex  gap-2 my-8">
               <div className="vid md:w-1/2  mx-auto">
                 <div className="text-3xl text-black font-extrabold my-4">
-                {language?" 型號 3":" Embodiment 03"} 
+                  {language ? " 型號 3" : " Embodiment 03"}
                 </div>
                 <video
                   className="rounded-3xl w-full"
@@ -134,7 +134,7 @@ const Embodiments = ({language,setLanguage}) => {
               </div>
               <div className="vid md:w-1/2  mx-auto">
                 <div className="text-3xl text-black font-extrabold my-4">
-                {language?" 型號 4":" Embodiment 04"} 
+                  {language ? " 型號 4" : " Embodiment 04"}
                 </div>
                 <video
                   className="rounded-3xl w-full"
@@ -144,14 +144,13 @@ const Embodiments = ({language,setLanguage}) => {
                   src="/04.mov"
                 ></video>
               </div>
-              
             </div>
           </div>
           <div className="mt-4">
             <div className="  my-8">
               <div className="vid md:w-1/2  ">
                 <div className="text-3xl text-black font-extrabold my-4">
-                {language?" 型號 5":" Embodiment 05"} 
+                  {language ? " 型號 5" : " Embodiment 05"}
                 </div>
                 <video
                   className="rounded-3xl w-full"
@@ -161,7 +160,6 @@ const Embodiments = ({language,setLanguage}) => {
                   src="/05.mov"
                 ></video>
               </div>
-            
             </div>
           </div>
         </div>
