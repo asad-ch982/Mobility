@@ -149,7 +149,7 @@ const Trunk = ({ language, setLanguage }) => {
                           <div>
                             {language
                               ? ""
-                              : "The foldable box, made of hard, durable plastic ormetal, occupies minimal space when not in use."}
+                              : "The foldable box, made of hard, durable plastic or metal, occupies minimal space when not in use."}
                           </div>
                           <br />
                         </div>
