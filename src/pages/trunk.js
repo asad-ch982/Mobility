@@ -12,7 +12,7 @@ const Trunk = ({ language, setLanguage }) => {
       </Head>
       <div className="my-10  ">
         <div className="head md:flex justify-between  w-5/6  mx-auto">
-          <div className="text-white bg-red-700 items-center font-semibold text-3xl mb-2 sm:mb-0">
+          <div className="text-white bg-red-600 items-center font-semibold text-center text-2xl mb-2 sm:mb-0">
             {language ? "可收缩后备箱" : " Retractable Trunk"}
           </div>
         </div>
@@ -20,6 +20,20 @@ const Trunk = ({ language, setLanguage }) => {
         <div className="embodimentMain">
           <div className="">
             <div className="flex flex-col-reverse  ">
+              <div className="vid w-5/6 md:flex gap-2 mx-auto">
+                <div className="md:w-1/2">
+                  <div className="text-3xl my-4 text-black  ">
+                    {language ? " 方便 后车厢" : " Accessible trunk"}
+                  </div>
+                  <video
+                    className="rounded-3xl w-full"
+                    controls
+                    autoPlay={false}
+                    loop
+                    src="/05.mov"
+                  ></video>
+                </div>
+              </div>
               <div className="vid w-5/6 md:flex gap-2 mx-auto">
                 <div className="md:w-1/2">
                   <div className="text-3xl my-4 text-black  ">
@@ -47,6 +61,7 @@ const Trunk = ({ language, setLanguage }) => {
                   ></video>
                 </div>
               </div>
+
               <div className="txt w-5/6  mx-auto  lg:mt-0 xl:mt-4">
                 <div className="head flex  justify-between"></div>
 
@@ -61,7 +76,7 @@ const Trunk = ({ language, setLanguage }) => {
                           capacity and versatility and can be deployed in less
                           than three seconds. A small hatchback, for example,
                           can offer more than
-                          <span className="bg-red-700 text-white px-1 mx-1   ">
+                          <span className="bg-red-600 text-white px-1 mx-1   ">
                             750
                           </span>
                           liters of extra storage.
@@ -73,7 +88,7 @@ const Trunk = ({ language, setLanguage }) => {
                     ) : (
                       <>
                         Alternatively, this simple-to-implement patent can
-                        <span className="bg-red-700 px-1 mx-1 text-white">
+                        <span className="bg-red-600 px-1 mx-1 text-white">
                           replace
                         </span>
                         the underutilized trunk either partially or completely.
@@ -87,29 +102,43 @@ const Trunk = ({ language, setLanguage }) => {
                             ? "替代后备箱带来了一系列优势:"
                             : "The space gained by eliminating the traditional trunk can be utilized to:"}
                         </div>
-                        <span className="text-red-500 "> 1.</span>{" "}
+                        <span className="text-red-600 "> 1.</span>{" "}
                         {language
                           ? "增加腿部空间"
                           : "Increase vehicle legroom."}{" "}
                         <br />
-                        <span className="text-red-500 ">2.</span>{" "}
-                        {language
-                          ? "增加货物容量:例如，一辆小型掀背车可以容纳多达六个大型行李箱。"
-                          : "Increase cargo capacity by more than 750 liters."}{" "}
-                        <br />
-                        <span className="text-red-500 "> 3.</span>{" "}
+                        <div className="flex">
+                          <div className="text-red-600 mr-1 ">2. </div>{" "}
+                          {language
+                            ? "增加货物容量:例如，一辆小型掀背车可以容纳多达六个大型行李箱。"
+                            : " Increase cargo capacity by more than 750 liters."}{" "}
+                          <br />
+                        </div>
+                        <span className="text-red-600 "> 3.</span>{" "}
                         {language
                           ? "降低车辆生产成本。"
                           : " Reduce vehicle production costs."}{" "}
                         <br />
-                        <span className="text-red-500 "> 4.</span>{" "}
-                        {language
-                          ? "提高表现和效率。"
-                          : "  Enhance performance and efficiency thanks to the vehicle's reduced weight."}{" "}
-                        <br />
+                        <div className="flex">
+                          <span className="text-red-600 mr-1"> 4.</span>{" "}
+                          {language
+                            ? "提高表现和效率。"
+                            : "  Enhance performance and efficiency thanks to the vehicle's reduced weight."}{" "}
+                          <br />
+                        </div>
+                        <div className="flex">
+                          <span className="text-red-600 mr-1">
+                            {" "}
+                            {language ? "" : "5."}
+                          </span>{" "}
+                          {language
+                            ? ""
+                            : "Enhance the possibility of installing a third-row seat in mid-size vehicles or a full-size third-row seat in larger vehicles."}{" "}
+                          <br />
+                        </div>
                         <div className="text-gray-700 flex py-2">
-                          <div className="mx-1">
-                            <GoTriangleRight className="text-red-700  text-2xl" />
+                          <div className="">
+                            <GoTriangleRight className="text-red-600  text-2xl" />
                           </div>
                           <div>
                             {language
@@ -119,8 +148,8 @@ const Trunk = ({ language, setLanguage }) => {
                           </div>
                         </div>
                         <div className="text-gray-700 flex py-2">
-                          <div className="mx-1">
-                            <GoTriangleRight className="text-red-700  text-2xl" />
+                          <div className="">
+                            <GoTriangleRight className="text-red-600  text-2xl" />
                           </div>
                           {language
                             ? "轮式可折叠箱子可分离，可在室内装卸，使货物运输更容易。这种可折叠箱子由坚硬耐用的塑料或金属制成，不使用时占用的空间最小。"
@@ -128,13 +157,13 @@ const Trunk = ({ language, setLanguage }) => {
                           <br />
                         </div>
                         <div className="text-gray-700 flex py-2">
-                          <div className="mx-1">
-                            <GoTriangleRight className="text-red-700  text-2xl" />
+                          <div className="">
+                            <GoTriangleRight className="text-red-600  text-2xl" />
                           </div>
                           <p>
                             {language
-                              ? "可伸缩式后备箱不是一款售后产品，相反，它应该从头开始建造，并且必须无缝地集成到车辆的设计中"
-                              : "The detachable wheeled box enables indoor cargo loading and unloading, facilitating cargo handling."}
+                              ? "可伸缩的后备箱不是一个售后市场的产品，并且纳入它作为一个额外的存储解决方案很容易实现。然而，用它代替传统后备箱虽然可行，但需要从一开始就融入到设计过程中"
+                              : "The detachable wheeled box serves as a shopping trolley, enabling seamless indoor cargo loading and unloading."}
                           </p>
                           <br />
                         </div>
@@ -142,8 +171,8 @@ const Trunk = ({ language, setLanguage }) => {
                           {language ? (
                             ""
                           ) : (
-                            <div className="mx-1">
-                              <GoTriangleRight className="text-red-700  text-2xl" />
+                            <div className="">
+                              <GoTriangleRight className="text-red-600  text-2xl" />
                             </div>
                           )}
                           <div>
@@ -157,14 +186,14 @@ const Trunk = ({ language, setLanguage }) => {
                           {language ? (
                             ""
                           ) : (
-                            <div className="mx-1">
-                              <GoTriangleRight className="text-red-700  text-2xl" />
+                            <div className="">
+                              <GoTriangleRight className="text-red-600  text-2xl" />
                             </div>
                           )}
                           <div>
                             {language
                               ? ""
-                              : " The retractable trunk isn’t an aftermarket product;rather, it should be seamlessly integrated into thevehicle’s design and built from the ground up."}
+                              : " The retractable trunk is not an aftermarket product, and incorporating it as an extra storage solution is easy to implement. However, replacing the traditional trunk with it, while feasible, requires integration into the design process from the very beginning."}
                           </div>
                         </div>{" "}
                         {/* {language

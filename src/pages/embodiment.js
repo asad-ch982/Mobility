@@ -146,11 +146,11 @@ const Embodiments = ({ language, setLanguage }) => {
               </div>
             </div>
           </div>
-          <div className="mt-4">
+          {/* <div className="mt-4">
             <div className="  my-8">
               <div className="vid md:w-1/2  ">
                 <div className="text-3xl text-black font-extrabold my-4">
-                  {language ? " 型號 5" : " Embodiment 05"}
+                  {language ? " 方便 后车厢" : " Accessible trunk"}
                 </div>
                 <video
                   className="rounded-3xl w-full"
@@ -161,7 +161,7 @@ const Embodiments = ({ language, setLanguage }) => {
                 ></video>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="text-gray-700 w-5/6  mx-auto"></div>
       </div>
