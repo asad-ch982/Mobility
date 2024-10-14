@@ -12,8 +12,16 @@ const Trunk = ({ language, setLanguage }) => {
       </Head>
       <div className="my-10  ">
         <div className="head md:flex justify-between  w-5/6  mx-auto">
-          <div className="text-white bg-red-600 items-center font-semibold text-center text-2xl mb-2 sm:mb-0">
-            {language ? "可收缩后备箱" : " Retractable Trunk"}
+          <div className="text-white  w-full text-center items-center font-semibold  text-2xl mb-2 sm:mb-0">
+            {language ? (
+              <>
+                <span className="bg-red-600 text-white">可收缩后备箱</span>
+              </>
+            ) : (
+              <>
+                <span className="text-black"> Retractable Trunk</span>
+              </>
+            )}
           </div>
         </div>
 
@@ -23,7 +31,7 @@ const Trunk = ({ language, setLanguage }) => {
               <div className="vid w-5/6 md:flex gap-2 mx-auto">
                 <div className="md:w-1/2">
                   <div className="text-3xl my-4 text-black  ">
-                    {language ? " 方便 后车厢" : " Accessible trunk"}
+                    {language ? " 无障碍汽车后备箱" : " Accessible trunk"}
                   </div>
                   <video
                     className="rounded-3xl w-full"
@@ -37,7 +45,7 @@ const Trunk = ({ language, setLanguage }) => {
               <div className="vid w-5/6 md:flex gap-2 mx-auto">
                 <div className="md:w-1/2">
                   <div className="text-3xl my-4 text-black  ">
-                    {language ? " 型號 1" : " Embodiment 01"}
+                    {language ? " 垂直模型" : "Horizontal model "}
                   </div>
                   <video
                     className="rounded-3xl w-full"
@@ -50,7 +58,7 @@ const Trunk = ({ language, setLanguage }) => {
 
                 <div className="vid md:w-1/2  ">
                   <div className="text-3xl my-4 text-black ">
-                    {language ? " 型號 2" : " Embodiment 02"}
+                    {language ? " 水平模型" : "Vertical model"}
                   </div>
                   <video
                     className="rounded-3xl w-full"
@@ -65,11 +73,17 @@ const Trunk = ({ language, setLanguage }) => {
               <div className="txt w-5/6  mx-auto  lg:mt-0 xl:mt-4">
                 <div className="head flex  justify-between"></div>
 
-                <div className="mt-4 text-gray-700  lg:mt-1 lg:leading-none xl:mt-4 xl:leading-normal ">
+                <div className="mt-4 text-gray-700  lg:mt-1  xl:mt-4  ">
                   <div>
                     <div className="my-2 ">
                       {language ? (
-                        "传统车辆后备箱往往被低效利用，使乘员腿部 空间受限。"
+                        <>
+                          内置式可伸缩汽车后备箱能提供额外的储存空间与多种用途并能在3秒内完成布置。比方说一个小的掀背式设计，可以提供超过
+                          <span className="bg-red-600 text-white px-1 mx-1   ">
+                            750
+                          </span>
+                          升的额外空间。
+                        </>
                       ) : (
                         <>
                           The built-in retractable trunk offers extra storage
@@ -84,7 +98,13 @@ const Trunk = ({ language, setLanguage }) => {
                       )}
                     </div>
                     {language ? (
-                      "这个待实施的专利提案，可以简单地部分或完全替代 传统后备箱，或作为一个辅助存储解决方案。"
+                      <>
+                        另外，这个简单易用的专利能
+                        <span className="bg-red-600 px-1 mx-1 text-white">
+                          部分或者全
+                        </span>
+                        部取代原有的未充分利用空间的后备箱设计。
+                      </>
                     ) : (
                       <>
                         Alternatively, this simple-to-implement patent can
@@ -99,18 +119,18 @@ const Trunk = ({ language, setLanguage }) => {
                       <div>
                         <div className="my-2">
                           {language
-                            ? "替代后备箱带来了一系列优势:"
+                            ? "取代传统后备箱设计后获得的空间可用于："
                             : "The space gained by eliminating the traditional trunk can be utilized to:"}
                         </div>
                         <span className="text-red-600 "> 1.</span>{" "}
                         {language
-                          ? "增加腿部空间"
+                          ? "增加乘客腿部空间。"
                           : "Increase vehicle legroom."}{" "}
                         <br />
                         <div className="flex">
                           <div className="text-red-600 mr-1 ">2. </div>{" "}
                           {language
-                            ? "增加货物容量:例如，一辆小型掀背车可以容纳多达六个大型行李箱。"
+                            ? "增加行李空间约750升。"
                             : " Increase cargo capacity by more than 750 liters."}{" "}
                           <br />
                         </div>
@@ -122,17 +142,17 @@ const Trunk = ({ language, setLanguage }) => {
                         <div className="flex">
                           <span className="text-red-600 mr-1"> 4.</span>{" "}
                           {language
-                            ? "提高表现和效率。"
+                            ? "由于减轻了车辆的重量，它提高了车辆的性能和效率。"
                             : "  Enhance performance and efficiency thanks to the vehicle's reduced weight."}{" "}
                           <br />
                         </div>
                         <div className="flex">
                           <span className="text-red-600 mr-1">
                             {" "}
-                            {language ? "" : "5."}
+                            {language ? "5." : "5."}
                           </span>{" "}
                           {language
-                            ? ""
+                            ? "增加了中型车辆安装第三排座椅或大型车辆安装完全尺寸的第三排座椅的可能性。"
                             : "Enhance the possibility of installing a third-row seat in mid-size vehicles or a full-size third-row seat in larger vehicles."}{" "}
                           <br />
                         </div>
@@ -142,7 +162,7 @@ const Trunk = ({ language, setLanguage }) => {
                           </div>
                           <div>
                             {language
-                              ? "即使取消了后备箱，通过折叠后排座椅，货物仍然可以容纳在车辆中。在这种情况下，当后座被占用时，可以使用可伸缩后备箱。矛盾的是，尽管车辆尺寸紧凑，但它仍能提供全尺寸的内部空间和充足的存储空间，使其在建造时既省油又具有成本效益。"
+                              ? "让人震惊的是，尽管车辆尺寸紧凑，但它却可以提供全尺寸的内部空间和充足的存储空间，并使其既省油又具有成本效益。"
                               : " 	Paradoxically, the vehicle can offer a full-size interior and ample storage despite being compact in size, making it both fuel-efficient and cost-effective to build."}{" "}
                             <br />
                           </div>
@@ -152,7 +172,7 @@ const Trunk = ({ language, setLanguage }) => {
                             <GoTriangleRight className="text-red-600  text-2xl" />
                           </div>
                           {language
-                            ? "轮式可折叠箱子可分离，可在室内装卸，使货物运输更容易。这种可折叠箱子由坚硬耐用的塑料或金属制成，不使用时占用的空间最小。"
+                            ? "如果后备箱被取代，货物仍可以通过折叠后排座位储存于车内。"
                             : " 	If the trunk is eliminated, cargo can still be stored inside the vehicle by folding the back seats. In this scenario, the retractable trunk can be used when the back seats are occupied by passengers, adding to versatility and space utilization."}
                           <br />
                         </div>
@@ -162,14 +182,16 @@ const Trunk = ({ language, setLanguage }) => {
                           </div>
                           <p>
                             {language
-                              ? "可伸缩的后备箱不是一个售后市场的产品，并且纳入它作为一个额外的存储解决方案很容易实现。然而，用它代替传统后备箱虽然可行，但需要从一开始就融入到设计过程中"
+                              ? "在该种情况下，就算后排座位被乘客占用，您依然能够使用可伸缩后备箱。同时，可拆卸的带轮箱可用作购物车，实现室内货物到车辆的无缝装卸。"
                               : "The detachable wheeled box serves as a shopping trolley, enabling seamless indoor cargo loading and unloading."}
                           </p>
                           <br />
                         </div>
                         <div className="text-gray-700 flex py-2">
                           {language ? (
-                            ""
+                            <div className="">
+                              <GoTriangleRight className="text-red-600  text-2xl" />
+                            </div>
                           ) : (
                             <div className="">
                               <GoTriangleRight className="text-red-600  text-2xl" />
@@ -177,14 +199,16 @@ const Trunk = ({ language, setLanguage }) => {
                           )}
                           <div>
                             {language
-                              ? ""
+                              ? "该可伸缩后备箱由耐用的塑料或金属制成，所以在不使用时候占用的空间非常少。"
                               : "The foldable box, made of hard, durable plastic or metal, occupies minimal space when not in use."}
                           </div>
                           <br />
                         </div>
                         <div className="text-gray-700 flex py-2">
                           {language ? (
-                            ""
+                            <div className="">
+                              <GoTriangleRight className="text-red-600  text-2xl" />
+                            </div>
                           ) : (
                             <div className="">
                               <GoTriangleRight className="text-red-600  text-2xl" />
@@ -192,7 +216,7 @@ const Trunk = ({ language, setLanguage }) => {
                           )}
                           <div>
                             {language
-                              ? ""
+                              ? "该可伸缩后备箱并不是一种售后改装配件，它很容易作为一种额外的存储解决方案整合实施。然而，用来取代传统的后备箱虽然可行，但需要在一开始的时候就融入到车辆的设计过程当中。"
                               : " The retractable trunk is not an aftermarket product, and incorporating it as an extra storage solution is easy to implement. However, replacing the traditional trunk with it, while feasible, requires integration into the design process from the very beginning."}
                           </div>
                         </div>{" "}
