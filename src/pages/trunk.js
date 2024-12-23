@@ -163,7 +163,7 @@ const Trunk = ({ language, setLanguage }) => {
                           <div>
                             {language
                               ? "让人震惊的是，尽管车辆尺寸紧凑，但它却可以提供全尺寸的内部空间和充足的存储空间，并使其既省油又具有成本效益。"
-                              : " 	Paradoxically, the vehicle can offer a full-size interior and ample storage despite being compact in size, making it both fuel-efficient and cost-effective to build."}{" "}
+                              : " 	In comparison with available small vehicles that have virtually no trunk, this design provides a full-size interior and ample storage despite its compact size, making it both fuel-efficient and cost-effective to build."}{" "}
                             <br />
                           </div>
                         </div>

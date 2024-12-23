@@ -110,7 +110,7 @@ const Bedsystem = ({ language, setLanguage }) => {
                         <span className="bg-red-600 text-white">
                           具有可调节宽度的双段床{" "}
                         </span>{" "}
-                        ，能提供了一个更宽的睡眠区域，使该产品特别适合紧凑型或中型的车辆。
+                        ，能提供了一个更宽的睡眠区域，使该产品特别适合紧凑型或中型的车辆。这种设计解决了后备箱内车轮拱门之间空间狭窄的问题，并提供了一定程度的隐私。
                       </p>
 
                       <p>
@@ -119,7 +119,7 @@ const Bedsystem = ({ language, setLanguage }) => {
                     </div>
                   </>
                 ) : (
-                  " Travelers often struggle to find suitable accommodation due to limited options, particularly during peak seasons. This patent-pending product addresses this challenge by allowing vehicle seats to fully recline, transforming them into comfortable beds. What sets the in-car bed system apart is its unique design, featuring removable seat parts and bed structures that effortlessly transform the seats into completely flat beds, extending seamlessly from the dashboard to the end of the trunk and from door to door crosswise. Another significant patented feature is the two-level beds with varying widths , which provide a wider sleeping area, making it particularly suitable for compact and medium-size vehicles.The system offers two distinct configurations: one designed for a quick, efficient nap, and the other optimized for a long, comfortable sleep."
+                  " Travelers often struggle to find suitable accommodation due to limited options, particularly during peak seasons. This patent-pending product addresses this challenge by allowing vehicle seats to fully recline, transforming them into comfortable beds. What sets the in-car bed system apart is its unique design, featuring removable seat parts and bed structures that effortlessly transform the seats into completely flat beds, extending seamlessly from the dashboard to the end of the trunk and from door to door crosswise. Another notable patented feature is the two-level bed system with variable widths, which creates a sleeping area wider than the vehicle itself.Moreover, the design addresses the challenge of narrow trunk space between the wheel arches, providing a layer of privacy and making it particularly suitable for compact and mid-sized vehicles."
                 )}
               </p>
               <br />
